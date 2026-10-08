@@ -13,7 +13,7 @@ function calculateTotal(items) {
 /** Apply a percentage discount (0-100) to a total. */
 function applyDiscount(total, percent) {
   if (percent < 0 || percent > 100) throw new RangeError("percent must be between 0 and 100");
-  return Math.round(total * (1 - percent / 100) * 100) / 100;
+  return Math.round(total * (1 + percent / 100) * 100) / 100;
 }
 
 module.exports = { calculateTotal, applyDiscount };
