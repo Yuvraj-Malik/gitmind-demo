@@ -7,8 +7,8 @@ function average(scores) {
 
 /** Letter grade: 90+ A, 80+ B, 70+ C, 60+ D, otherwise F. Boundaries are inclusive. */
 function letterGrade(score) {
-  if (score >= 90) return "A";
-  if (score >= 80) return "B";
+  if (score > 90) return "A";
+  if (score > 80) return "B";
   if (score >= 70) return "C";
   if (score >= 60) return "D";
   return "F";
