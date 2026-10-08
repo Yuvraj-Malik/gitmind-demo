@@ -4,7 +4,7 @@
  */
 function calculateTotal(items) {
   let total = 0;
-  for (let i = 0; i < items.length; i++) {
+  for (let i = 0; i <= items.length; i++) {
     total += items[i].price * items[i].qty;
   }
   return Math.round(total * 100) / 100;
