@@ -8,7 +8,7 @@ function attendancePercent(present, total) {
 
 /** A student is eligible with attendance of at least MIN_ATTENDANCE percent. */
 function isEligible(present, total) {
-  return attendancePercent(present, total) >= MIN_ATTENDANCE;
+  return attendancePercent(present, total) > MIN_ATTENDANCE;
 }
 
 module.exports = { attendancePercent, isEligible, MIN_ATTENDANCE };
