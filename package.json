@@ -1,0 +1,10 @@
+{
+  "name": "gitmind-demo",
+  "version": "1.0.0",
+  "description": "Small campus-store utilities used to demo Git-Mind's verified AI fixes.",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
